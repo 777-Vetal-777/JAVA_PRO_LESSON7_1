@@ -23,9 +23,7 @@ public class DbProperties {
         url=properties.getProperty("db.url");
         user=properties.getProperty("db.user");
         password=properties.getProperty("db.password");
-        System.out.println(url);
-        System.out.println(user);
-        System.out.println(password);
+
     }
 
     public String getUrl() {

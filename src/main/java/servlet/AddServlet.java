@@ -30,7 +30,6 @@ public class AddServlet extends HttpServlet {
 
     @Override
     protected void doPost(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
-        System.out.println("one");
         String address = req.getParameter("address");
         String district = req.getParameter("district");
         String tempArea = req.getParameter("area");
