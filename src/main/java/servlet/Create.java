@@ -5,7 +5,7 @@ import java.sql.*;
 public class Create {
     public static void createDatabase(){
         try {
-            Connection connection = DriverManager.getConnection("jdbc:mysql://localhost:3306?serverTimezone=Europe/Kiev","root","Pro100vetal");
+            Connection connection = DriverManager.getConnection("jdbc:mysql://localhost:3306?serverTimezone=Europe/Kiev","root","admin");
 
             Statement statement = connection.createStatement();
             statement.execute("CREATE DATABASE IF not exists Flats");
